@@ -1,0 +1,43 @@
+[
+  {
+    "id": "50a91152-c011-4f2a-8c2b-7d7bf1f2f68c",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "seedId": "570f2a6a-6ad6-4a50-a9cb-8d55d3edc81d",
+    "name": "TestPlaidException",
+    "description": "Testing the script that is causing complile delays",
+    "metadata": {
+      "process_events": {
+        "cmdline": [
+          "^plaidtestscript.go$",
+          "^.*plaidtestscript.go*$"
+        ]
+      },
+      "process_file_events": {
+        "cmdline": [
+          "^plaidtestscript.go$",
+          "^.*plaidtestscript.go*$"
+        ]
+      }
+    },
+    "createdBy": "bb435202-90e1-4940-aaa8-796a22fe796e",
+    "updatedBy": "bb435202-90e1-4940-aaa8-796a22fe796e",
+    "createdAt": "2024-09-25T12:04:55.055Z",
+    "updatedAt": "2024-09-25T12:16:51.605Z",
+    "custom": true,
+    "resourceType": "asset",
+    "platform": "darwin",
+    "internal": false,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Event exlude profile information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/eventExcludeProfiles/50a91152-c011-4f2a-8c2b-7d7bf1f2f68c"
+      },
+      {
+        "rel": "parent",
+        "title": "Event exlude profiles information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/eventExcludeProfiles"
+      }
+    ]
+  }
+]
