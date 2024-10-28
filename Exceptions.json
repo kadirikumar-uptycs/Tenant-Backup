@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a028f70f-e2e2-43e5-bfaa-8b79e65d4926",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "name": "Exception Thu Sep 12 2024 15:59:05 GMT+0530 (India Standard Time)",
+    "seedId": "e24255cc-393b-4496-a36e-6c4cfedb4aa0",
+    "description": null,
+    "rule": {
+      "domain": {
+        "$eq": "www.google.com"
+      }
+    },
+    "disabled": false,
+    "closeOpenAlerts": true,
+    "exceptionType": "sift",
+    "isGlobal": false,
+    "custom": false,
+    "createdAt": "2024-09-12T10:29:06.740Z",
+    "createdBy": "8375ba24-9997-425f-af06-fc696af06782",
+    "updatedAt": "2024-09-12T10:29:06.740Z",
+    "updatedBy": null,
+    "tableName": null,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Exception",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/exceptions/a028f70f-e2e2-43e5-bfaa-8b79e65d4926"
+      },
+      {
+        "rel": "parent",
+        "title": "Exceptions",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/exceptions"
+      }
+    ]
+  },
+  {
+    "id": "a38dfafe-fe1e-4497-8030-5d8842cc2879",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "name": "TEST-EVENT-RULE",
+    "seedId": "b7b0f39c-a481-4189-a7bc-c786ed7f0529",
+    "description": null,
+    "rule": {
+      "and": [
+        {
+          "name": "name",
+          "operator": "CONTAINS",
+          "value": "sys",
+          "isDate": false,
+          "isVersion": false,
+          "isDynamic": false,
+          "isWordMatch": false,
+          "not": false,
+          "trim": false,
+          "caseInsensitive": true,
+          "isNotEmpty": false
+        }
+      ]
+    },
+    "disabled": false,
+    "closeOpenAlerts": false,
+    "exceptionType": "builder",
+    "isGlobal": false,
+    "custom": false,
+    "createdAt": "2024-09-10T09:18:29.080Z",
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedAt": "2024-09-10T09:18:29.080Z",
+    "updatedBy": null,
+    "tableName": "processes",
+    "links": [
+      {
+        "rel": "self",
+        "title": "Exception",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/exceptions/a38dfafe-fe1e-4497-8030-5d8842cc2879"
+      },
+      {
+        "rel": "parent",
+        "title": "Exceptions",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/exceptions"
+      }
+    ]
+  }
+]
