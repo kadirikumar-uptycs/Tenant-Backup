@@ -1,0 +1,298 @@
+[
+  {
+    "id": "6e4fd6eb-1b7c-460e-afc0-b87632357eb8",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "seedId": "7e6cb15b-e22e-47e6-aa7a-facd7e7b47f3",
+    "name": "AD 74",
+    "title": "AD 74",
+    "description": null,
+    "type": "dashboard",
+    "context": {
+      "REPORT": {
+        "assetFilters": {
+          "filters": {},
+          "limit": 10000,
+          "offset": 0,
+          "orderby": "",
+          "direction": ""
+        },
+        "uiAssetFilters": {
+          "filters": {},
+          "search": null
+        }
+      }
+    },
+    "parameters": [],
+    "frequency": "NONE",
+    "schedule": null,
+    "enabled": true,
+    "custom": true,
+    "shared": true,
+    "ownedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "createdAt": "2024-09-09T16:53:38.444Z",
+    "updatedAt": "2024-09-09T16:53:38.444Z",
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "visible": true,
+    "layout": [],
+    "agentType": "asset",
+    "resourceType": null,
+    "schedules": [],
+    "categories": [],
+    "lastRunAt": null,
+    "lastRunId": null,
+    "ninetyDayRunCount": 0,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Report information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards/6e4fd6eb-1b7c-460e-afc0-b87632357eb8"
+      },
+      {
+        "rel": "parent",
+        "title": "Reports information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards"
+      }
+    ]
+  },
+  {
+    "id": "c8f70e65-35e8-4ebf-8038-f723ebf51406",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "seedId": "cb0a13a1-8222-4735-8c4a-70287347f829",
+    "name": "Events count trend ",
+    "title": "Events Counts Trend ",
+    "description": "Event counts trend to co related with bandwidth usage by sensor",
+    "type": "dashboard",
+    "context": {
+      "REPORT": {
+        "assetFilters": {
+          "filters": {},
+          "limit": 10000,
+          "offset": 0,
+          "orderby": "",
+          "direction": ""
+        },
+        "uiAssetFilters": {
+          "filters": {},
+          "search": null
+        }
+      }
+    },
+    "parameters": [
+      {
+        "key": "tagCoverName",
+        "dataType": "TEXT",
+        "multiple": false,
+        "optional": false
+      },
+      {
+        "key": "lastHours",
+        "dataType": "NUMBER",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": null
+      },
+      {
+        "key": "start_time_UTC",
+        "dataType": "DATE",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": null
+      },
+      {
+        "key": "end_time_UTC",
+        "dataType": "DATE",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": null
+      }
+    ],
+    "frequency": "NONE",
+    "schedule": null,
+    "enabled": true,
+    "custom": true,
+    "shared": true,
+    "ownedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "createdAt": "2024-10-02T13:20:31.553Z",
+    "updatedAt": "2024-10-03T10:12:41.905Z",
+    "createdBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "updatedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "visible": true,
+    "layout": null,
+    "agentType": "asset",
+    "resourceType": null,
+    "schedules": [],
+    "categories": [],
+    "lastRunAt": null,
+    "lastRunId": null,
+    "ninetyDayRunCount": 0,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Report information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards/c8f70e65-35e8-4ebf-8038-f723ebf51406"
+      },
+      {
+        "rel": "parent",
+        "title": "Reports information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards"
+      }
+    ]
+  },
+  {
+    "id": "15a810f1-cb02-421f-9f8e-8bbc263a2482",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "seedId": "000a413f-80cf-40b8-8f02-d261af260e38",
+    "name": "Linux Complete Performance Report ",
+    "title": "Linux Complete Performance Report",
+    "description": "Linux Complete Performance Report  ",
+    "type": "dashboard",
+    "context": {
+      "REPORT": {
+        "assetFilters": {
+          "filters": {},
+          "limit": 10000,
+          "offset": 0,
+          "orderby": "",
+          "direction": ""
+        },
+        "uiAssetFilters": {
+          "filters": {},
+          "search": null
+        }
+      }
+    },
+    "parameters": [
+      {
+        "key": "tagCoverName",
+        "dataType": "TEXT",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": "debugtag"
+      },
+      {
+        "key": "lastHours",
+        "dataType": "NUMBER",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": 24
+      }
+    ],
+    "frequency": "NONE",
+    "schedule": null,
+    "enabled": true,
+    "custom": true,
+    "shared": true,
+    "ownedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "createdAt": "2024-10-02T13:20:47.114Z",
+    "updatedAt": "2024-10-02T13:20:47.114Z",
+    "createdBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "updatedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "visible": true,
+    "layout": null,
+    "agentType": "asset",
+    "resourceType": null,
+    "schedules": [],
+    "categories": [],
+    "lastRunAt": null,
+    "lastRunId": null,
+    "ninetyDayRunCount": 0,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Report information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards/15a810f1-cb02-421f-9f8e-8bbc263a2482"
+      },
+      {
+        "rel": "parent",
+        "title": "Reports information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards"
+      }
+    ]
+  },
+  {
+    "id": "30ec061f-99ba-402f-a24b-fd93c9a9e143",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "seedId": "b40741ce-5de0-4823-9656-22bbd21ec7a5",
+    "name": "Minimal Linux  Performance Report ",
+    "title": "Minimal Linux  Performance Report ",
+    "description": "Linux  Performance Report  with minimum widgets",
+    "type": "dashboard",
+    "context": {
+      "REPORT": {
+        "assetFilters": {
+          "filters": {},
+          "limit": 10000,
+          "offset": 0,
+          "orderby": "",
+          "direction": ""
+        },
+        "uiAssetFilters": {
+          "filters": {},
+          "search": null
+        }
+      }
+    },
+    "parameters": [
+      {
+        "key": "tagCoverName",
+        "dataType": "TEXT",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": "ubuntu"
+      },
+      {
+        "key": "lastHours",
+        "dataType": "NUMBER",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": 0
+      },
+      {
+        "key": "start_time_UTC",
+        "dataType": "DATE",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": null
+      },
+      {
+        "key": "end_time_UTC",
+        "dataType": "DATE",
+        "multiple": false,
+        "optional": false,
+        "defaultValue": null
+      }
+    ],
+    "frequency": "NONE",
+    "schedule": null,
+    "enabled": true,
+    "custom": true,
+    "shared": true,
+    "ownedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "createdAt": "2024-10-02T13:24:11.755Z",
+    "updatedAt": "2024-10-02T14:36:24.046Z",
+    "createdBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "updatedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "visible": true,
+    "layout": null,
+    "agentType": "asset",
+    "resourceType": null,
+    "schedules": [],
+    "categories": [],
+    "lastRunAt": null,
+    "lastRunId": null,
+    "ninetyDayRunCount": 0,
+    "links": [
+      {
+        "rel": "self",
+        "title": "Report information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards/30ec061f-99ba-402f-a24b-fd93c9a9e143"
+      },
+      {
+        "rel": "parent",
+        "title": "Reports information",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/customdashboards"
+      }
+    ]
+  }
+]
