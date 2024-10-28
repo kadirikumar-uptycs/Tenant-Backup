@@ -1,0 +1,320 @@
+[
+  {
+    "id": "28f06f49-8ba7-4eea-947b-9c7256f4e0e5",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "147-regression",
+    "seedId": "1c0e7c88-c09d-4208-ba33-cd5c342671a7",
+    "description": "147-regression",
+    "priority": 58,
+    "flags": {
+      "disable_carver": false,
+      "carver_compression": false,
+      "win_inline_reg_events": false,
+      "disable_process_carver": false
+    },
+    "osFlags": null,
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "createdAt": "2024-09-13T09:24:13.869Z",
+    "updatedAt": "2024-09-13T09:24:13.869Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/28f06f49-8ba7-4eea-947b-9c7256f4e0e5"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "efa90608-850a-40ad-8cb5-6f72f1f43e59",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "149-regression",
+    "seedId": "345e9933-8621-47a6-aebf-a3149ee874bc",
+    "description": "149-regression",
+    "priority": 52,
+    "flags": {
+      "disable_audit": false,
+      "disable_carver": false,
+      "audit_allow_config": true,
+      "carver_compression": false,
+      "enable_dns_lookups": true,
+      "enable_remediation": true,
+      "audit_allow_sockets": true,
+      "enable_dns_blocking": true,
+      "win_allow_fim_events": true,
+      "audit_allow_fim_events": true,
+      "disable_process_carver": false,
+      "enable_ebpf_dns_events": true,
+      "audit_allow_user_events": true,
+      "enable_process_blocking": true,
+      "enable_yara_ad_hoc_rules": true,
+      "audit_allow_process_events": true,
+      "enable_yara_process_events": true,
+      "enable_windows_kernel_events": true,
+      "enable_yara_process_scanning": true,
+      "try_audit_based_events_first": false,
+      "enable_process_blocking_events": true,
+      "override_audit_allow_fim_events": true,
+      "no_install_audit_fim_events_rule": false,
+      "no_install_audit_socket_events_rule": false,
+      "no_install_audit_process_events_rule": false
+    },
+    "osFlags": null,
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "createdAt": "2024-09-13T09:27:43.265Z",
+    "updatedAt": "2024-09-13T09:27:43.265Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/efa90608-850a-40ad-8cb5-6f72f1f43e59"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "b7ff99a0-09d3-4fa9-b87d-5bfcaa8d7046",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "149testsomnath",
+    "seedId": "017cddd4-af10-47f9-ba9f-2f286a259f17",
+    "description": null,
+    "priority": 55555,
+    "flags": {
+      "disable_audit": false,
+      "verbose_level": "4",
+      "disable_carver": false,
+      "audit_allow_config": true,
+      "carver_compression": true,
+      "enable_dns_lookups": true,
+      "enable_remediation": true,
+      "audit_allow_sockets": true,
+      "enable_dns_blocking": true,
+      "enable_file_hashing": false,
+      "enable_docker_events": true,
+      "win_allow_fim_events": true,
+      "audit_allow_fim_events": true,
+      "disable_process_carver": false,
+      "enable_ebpf_dns_events": true,
+      "audit_allow_user_events": true,
+      "enable_process_blocking": true,
+      "enable_containerd_events": true,
+      "enable_yara_ad_hoc_rules": true,
+      "audit_allow_process_events": true,
+      "enable_yara_process_events": true,
+      "enable_windows_kernel_events": true,
+      "enable_yara_process_scanning": true,
+      "try_audit_based_events_first": false,
+      "enable_process_blocking_events": true,
+      "override_audit_allow_fim_events": true,
+      "no_install_audit_fim_events_rule": false,
+      "no_install_audit_socket_events_rule": false,
+      "no_install_audit_process_events_rule": false
+    },
+    "osFlags": null,
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "createdAt": "2024-09-13T09:27:43.570Z",
+    "updatedAt": "2024-09-13T09:27:43.570Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/b7ff99a0-09d3-4fa9-b87d-5bfcaa8d7046"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "1f93e19c-2f01-480e-a936-c9cca593b0ce",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "153_flag_profile_validation",
+    "seedId": "eaa0698e-5f54-4aea-90f7-e20af604f22d",
+    "description": "153_flag_profile_validation",
+    "priority": 1654,
+    "flags": {
+      "disable_audit": false,
+      "disable_carver": false,
+      "carver_compression": false,
+      "enable_remediation": true,
+      "audit_allow_fim_events": true,
+      "disable_events_staging": false,
+      "disable_process_carver": false,
+      "audit_allow_user_events": true,
+      "enable_process_blocking": true,
+      "allow_inotify_file_events": false,
+      "audit_allow_process_events": true,
+      "try_audit_based_events_first": false,
+      "enable_process_blocking_events": true,
+      "fim_capture_magic_number_bytes": "100",
+      "ancestor_list_cmdline_max_length": "237",
+      "generate_process_hash_in_process_event": true
+    },
+    "osFlags": null,
+    "createdBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "updatedBy": "c4848bc8-2d1c-4377-97b8-5de8365372f3",
+    "createdAt": "2024-09-13T09:27:43.871Z",
+    "updatedAt": "2024-09-13T09:27:43.871Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/1f93e19c-2f01-480e-a936-c9cca593b0ce"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "3dc4e9b4-34fa-49f8-bdc9-c65523e7c75b",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "Remediation and Blocking and Carving",
+    "seedId": "273e52c1-5be7-4d28-a7a9-a421ccd2a3e4",
+    "description": "Remediation and Blocking and Carving",
+    "priority": 20240927,
+    "flags": {
+      "disable_carver": false,
+      "host_identifier": "uptycs_uuid",
+      "carver_compression": false,
+      "enable_dns_lookups": true,
+      "enable_remediation": true,
+      "enable_rule_engine": true,
+      "enable_dns_blocking": true,
+      "disable_process_carver": false,
+      "enable_process_blocking": true,
+      "enable_process_blocking_events": true
+    },
+    "osFlags": null,
+    "createdBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "updatedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "createdAt": "2024-09-27T01:44:33.234Z",
+    "updatedAt": "2024-09-27T05:39:14.318Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/3dc4e9b4-34fa-49f8-bdc9-c65523e7c75b"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "592d6397-281c-47f5-b241-b949e65e7a69",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "phoenixnap_uptycsuuid",
+    "seedId": "474e6c3b-6b47-402d-bbfb-2a2eee448094",
+    "description": null,
+    "priority": 20240919,
+    "flags": {
+      "disable_audit": false,
+      "disable_carver": false,
+      "host_identifier": "uptycs_uuid",
+      "audit_allow_config": false,
+      "carver_compression": false,
+      "enable_dns_lookups": true,
+      "enable_remediation": true,
+      "audit_allow_sockets": true,
+      "enable_dns_blocking": true,
+      "audit_allow_fim_events": true,
+      "disable_process_carver": false,
+      "enable_ebpf_dns_events": true,
+      "audit_allow_user_events": true,
+      "enable_process_blocking": true,
+      "enable_yara_ad_hoc_rules": true,
+      "audit_allow_process_events": true,
+      "enable_yara_process_events": true,
+      "enable_yara_process_scanning": true,
+      "try_audit_based_events_first": false,
+      "enable_process_blocking_events": true,
+      "no_install_audit_socket_events_rule": false,
+      "no_install_audit_process_events_rule": false
+    },
+    "osFlags": null,
+    "createdBy": "57ed4ad2-fa61-4043-b540-3143b9c02f31",
+    "updatedBy": "a156f69d-41a5-4e6f-a1cd-c0c7020fd782",
+    "createdAt": "2024-09-19T18:19:33.622Z",
+    "updatedAt": "2024-10-24T13:55:08.541Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/592d6397-281c-47f5-b241-b949e65e7a69"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  },
+  {
+    "id": "a937af43-4ca2-4fd8-b24e-0fe8ceb196fa",
+    "customerId": "59616551-f44a-44f1-9424-8d23e697b5f0",
+    "custom": true,
+    "name": "phoenixnap_uptycsuuid_clone",
+    "seedId": "ddd747cb-17f4-4cdb-9db5-dcd2cdfc191b",
+    "description": "Please dont use this flag profile",
+    "priority": 20241007,
+    "flags": {
+      "disable_audit": false,
+      "disable_carver": false,
+      "host_identifier": "uptycs_uuid",
+      "enable_core_dumps": true,
+      "audit_allow_config": false,
+      "carver_compression": false,
+      "enable_dns_lookups": true,
+      "enable_remediation": true,
+      "audit_allow_sockets": true,
+      "enable_dns_blocking": true,
+      "audit_allow_fim_events": false,
+      "disable_process_carver": false,
+      "enable_ebpf_dns_events": true,
+      "audit_allow_user_events": true,
+      "enable_process_blocking": true,
+      "enable_yara_ad_hoc_rules": true,
+      "audit_allow_process_events": true,
+      "enable_yara_process_events": true,
+      "enable_yara_process_scanning": true,
+      "try_audit_based_events_first": false,
+      "enable_process_blocking_events": true,
+      "no_install_audit_socket_events_rule": false,
+      "no_install_audit_process_events_rule": false
+    },
+    "osFlags": null,
+    "createdBy": "fb886548-0ea9-4e55-b3b8-6752761ac51c",
+    "updatedBy": "fb886548-0ea9-4e55-b3b8-6752761ac51c",
+    "createdAt": "2024-10-07T15:47:18.549Z",
+    "updatedAt": "2024-10-07T15:47:18.549Z",
+    "resourceType": "asset",
+    "links": [
+      {
+        "rel": "self",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles/a937af43-4ca2-4fd8-b24e-0fe8ceb196fa"
+      },
+      {
+        "rel": "parent",
+        "href": "/api/customers/59616551-f44a-44f1-9424-8d23e697b5f0/flagProfiles"
+      }
+    ]
+  }
+]
